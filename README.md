@@ -7,7 +7,7 @@ When you run the application, it will enter an infinite loop and prompt you for 
 
 You can only print one at a time. For batch printing, I use a completely different custom application. If desired, you can modify the application to loop through all data in data.json and apply socket_request() to each IP.
 
-Here's how I am using the application: I have barcodes on each printer/desk, and I am utilizing a Windows tablet with a built-in Zebra barcode scanner.
+Here's how I am using the application: I have barcodes on each printer/desk, and I am utilizing a Windows tablet with a built-in Zebra barcode scanner (Zebra ET5).
 
 
 ## 📦 Installation
