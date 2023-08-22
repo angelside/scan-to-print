@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "scan-to-print"
+version = "0.1.0"
+description = "Python CLI tool that allows to scan-to-print from barcode to zebra label printer"
+authors = ["angelside <package@juysoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+.vscode/
+.idea/
+__pycache__/
+__pypackages__/
+.pdm.toml
+.dccache
+.pylintrc
+.flake8
+__*
+
+build/
+dist/
+*.spec
+
+data.json
