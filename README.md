@@ -9,6 +9,8 @@ You can only print one at a time. For batch printing, I use a completely differe
 
 Here's how I am using the application: I have barcodes on each printer/desk, and I am utilizing a Windows tablet with a built-in Zebra barcode scanner (Zebra ET5).
 
+![screenshot](https://github.com/angelside/scan-to-print/assets/7515/864de62e-f4b3-4392-b3df-6c58dd40e696)
+
 
 ## 📦 Installation
 
