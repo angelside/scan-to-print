@@ -65,6 +65,8 @@ def main():
         os.system('pause') # Press any key to continue . . .
         exit()
 
+    # TODO: Check if data.json is a valid json format
+
     # ZPL template
     with open(label_file, 'r') as file:
         zplTemplateSmall = file.read().strip()
