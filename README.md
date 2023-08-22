@@ -39,9 +39,10 @@ Configuration files
 
  **data.json sample**
 
+"Barcode" : "Printer IP address"
+
  ```json
  {
-    // "Barcode" : "Printer IP address"
     "Desk-1": "192.168.0.2",
     "Desk-2": "192.168.0.3",
     "Desk-3": "192.168.0.4",
