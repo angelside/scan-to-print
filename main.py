@@ -78,14 +78,14 @@ def main():
     current_time = datetime.datetime.now().strftime('%d/%m/%Y %H:%M')
     
     with open(data_file) as f:
-       modules = json.load(f)
+       locations = json.load(f)
 
     while True: # Forever loop
         # Ask for input
         print()
         location = input('Location: ')
 
-        if location not in modules:
+        if location not in locations:
             print(current_time, f'{CliColors.FAIL}[ERROR]{CliColors.ENDC} Location does not exist')
         else:
             print(current_time)
@@ -97,10 +97,10 @@ def main():
 
             # Send a socket request
             print(location)
-            print(modules[location])
+            print(locations[location])
 
             socket_request(
-                ip_address = modules[location],
+                ip_address = locations[location],
                 port = config['printer_port'],
                 timeout = config['socket_timeout'],
                 zpl_code = fmt_zpl_code,
